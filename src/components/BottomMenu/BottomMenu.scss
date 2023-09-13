@@ -1,0 +1,17 @@
+nav {
+    background-color: rgba(0,0,0,0.3);
+    width: max-content;
+    display: flex;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 2rem;
+    gap: 2rem;
+}
+
+a svg {
+    width: 25px;
+    height: 25px;
+}
