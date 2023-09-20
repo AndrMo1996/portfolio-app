@@ -1,15 +1,11 @@
-.header__container{
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .header__info-box{
     display: flex;
-    // flex-direction: column;
-    width: 1000px;
+    gap: 5rem;
+    align-items: center;
+
+    h1{
+        font-size: 54px;
+    }
 }
 
 .header__me{
@@ -17,13 +13,7 @@
         width: 250px;
         height: 250px;
         border-radius: 50%;
-        box-shadow: 
-        0 0 .1rem #fff,
-        0 0 .2rem #fff,
-        0 0 .3rem #0fa,
-        0 0 .8rem rgb(76, 0, 255),
-        0 0 1rem #0fa,
-        inset 0 0 1.3rem #0fa; 
+        box-shadow: var(--shadow);
     }
 }
 
