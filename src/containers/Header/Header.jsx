@@ -24,7 +24,7 @@ const Header = () => {
             <h1>Andrii Moruzhko</h1>
             <h4>Software engineer</h4>
 
-            <a className='btn' href={CV} download>
+            <a className="btn" href={CV} download>
               Download CV
             </a>
           </div>

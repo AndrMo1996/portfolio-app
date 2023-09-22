@@ -16,6 +16,11 @@
     0 0 .8rem rgb(76, 0, 255),
     0 0 1rem #0fa,
     inset 0 0 1.3rem #0fa;
+  --shadow-variant: 0 0 .1rem #fff,
+    0 0 .2rem #fff,
+    0 0 .3rem #0fa,
+    0 0 .8rem rgb(76, 0, 255),
+    0 0 1rem #0fa;
 
   --container-width-ld: 65%;
   --container-width-md: 85%;
@@ -83,15 +88,15 @@ a:hover {
   }
 }
 
-@media screen and (max-width: 1640px){
-  .container{
-      width: var(--container-width-md);
+@media screen and (max-width: 1640px) {
+  .container {
+    width: var(--container-width-md);
   }
 }
 
-@media screen and (max-width: 1260px){
-  .container{
+@media screen and (max-width: 1260px) {
+  .container {
     width: var(--container-width-sm);
-      flex-direction: column;
+    flex-direction: column;
   }
 }

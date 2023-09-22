@@ -10,6 +10,8 @@
     left: 50%;
     bottom: 2rem;
     gap: 2rem;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(4px);
 
     .app__active-nav-item{
         display: flex;

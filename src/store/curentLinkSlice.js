@@ -1,17 +1,17 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from "@reduxjs/toolkit";
 
 export const curentLinkSlice = createSlice({
-  name: 'curentLink',
+  name: "curentLink",
   initialState: {
-    value: 'home',
+    value: "home",
   },
   reducers: {
     setCurrentLink: (state, action) => {
-      state.value = action.payload
+      state.value = action.payload;
     },
   },
-})
+});
 
-export const { setCurrentLink } = curentLinkSlice.actions
+export const { setCurrentLink } = curentLinkSlice.actions;
 
-export default curentLinkSlice.reducer
+export default curentLinkSlice.reducer;

@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
-import './App.scss'
+import { Header, About, Skills, Portfolio } from "./containers";
+import BottomMenu from "./components/BottomMenu/BottomMenu";
+import NavBar from "./components/NavBar/NavBar";
 
-import { Header, About, Skills, Portfolio } from './containers'
-import BottomMenu from './components/BottomMenu/BottomMenu'
-import NavBar from './components/NavBar/NavBar'
+import "./App.scss";
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
       <Skills />
       <Portfolio />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
