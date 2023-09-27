@@ -14,22 +14,12 @@ const ProjectCard = ({ project }) => {
 
       <div className="portfolio__item-links">
         {project.frontendGit && (
-          <a
-            className="btn"
-            href={project.frontendGit}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className="btn" href={project.frontendGit} target="_blank" rel="noopener noreferrer">
             Front GitHub
           </a>
         )}
         {project.backendGit && (
-          <a
-            className="btn"
-            href={project.backendGit}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className="btn" href={project.backendGit} target="_blank" rel="noopener noreferrer">
             Back GitHub
           </a>
         )}

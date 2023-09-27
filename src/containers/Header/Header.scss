@@ -32,9 +32,11 @@
 @media screen and (max-width: 1260px) {
   .header__info-box{
     flex-direction: column;
+    justify-content: space-between;
   }
 
   .header__socials {
+    margin-top: 5rem;
     flex-direction: row;
   }
 }

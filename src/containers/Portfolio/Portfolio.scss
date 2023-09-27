@@ -4,6 +4,9 @@
   width: 100%;
   gap: 2.5rem;
 
+  @media screen and (max-width: 1260px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .portfolio__item {
     background: var(--color-bg-variant);
     padding: 1.2rem;

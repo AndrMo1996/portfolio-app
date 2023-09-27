@@ -47,13 +47,8 @@ html {
 body {
   background-color: var(--color-bg);
   color: var(--color-white);
+  margin: 0;
 }
-
-/* .head-text {
-  position: relative;
-  margin-top: 15rem;
-  margin-left: 6rem;
-} */
 
 .container {
   height: 100%;
@@ -67,7 +62,8 @@ body {
 
 section {
   height: 100vh;
-  padding: 4.5rem 0;
+  width: 100vw;
+  padding: 4.5rem 2.5rem;
 }
 
 a {
@@ -96,8 +92,17 @@ a:hover {
 }
 
 @media screen and (max-width: 1260px) {
+  section{
+    min-height: 100vh;
+    height: auto;
+  }
+  
   .container {
     width: var(--container-width-sm);
     flex-direction: column;
+  }
+
+  .head-text {
+    padding-bottom: 2rem;
   }
 }

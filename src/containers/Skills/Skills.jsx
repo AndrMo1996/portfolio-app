@@ -27,6 +27,7 @@ const Skills = () => {
           ))}
         </motion.div>
         <div className="app__experience-timeline">
+          <h3 className="app__experience-timeline__title">Education & Work History</h3>
           <div className="app__experience-timeline_wrapper">
             {experiences.map((experience, index) => (
               <motion.div
