@@ -40,8 +40,13 @@
 
     .portfolio__item-links {
       display: flex;
-      flex-direction: row;
       gap: 1rem;
+
+      @media screen and (max-width: 420px) {
+        flex-direction: column;
+        gap: 0.1rem;
+
+      }
     }
   }
 }

@@ -1,33 +1,35 @@
-.app__navbar{
-    height: 50px;
-    width: 100%;
-    background-color: rgba(0,0,0,0.3);
-    position: fixed;
-    z-index: 3;
+.app__navbar {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  .app__logo {
+    text-transform: uppercase;
+  }
+
+  .app__navbar-menu {
+    width: max-content;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 6rem;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    gap: 1.2rem;
+    color: var(--color-primary-variant);
+    font-size: 14px;
+    text-transform: capitalize;
 
-    .app__logo{
-        text-transform: uppercase;
+    @media screen and (max-width: 600px) {
+      display: none;
     }
 
-    .app__navbar-menu {
-        width: max-content;
-        display: flex;
-        gap: 1.2rem;
-        color: var(--color-primary-variant);
-        font-size: 14px;
-        text-transform: capitalize;
-
-        .app_active-link{
-            color: var(--color-white);
-            border-bottom: 1px solid;
-        }
+    .app_active-link {
+      color: var(--color-white);
+      border-bottom: 1px solid;
     }
+  }
 }
-
-
