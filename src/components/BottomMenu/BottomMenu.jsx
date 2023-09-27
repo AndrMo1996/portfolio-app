@@ -1,10 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 
-import { AiFillHome } from 'react-icons/ai'
-import { FaAddressBook, FaUserEdit } from 'react-icons/fa'
-import { GiBurningBook } from 'react-icons/gi'
-
 import './BottomMenu.scss'
 import Navigation from '../Navigation'
 

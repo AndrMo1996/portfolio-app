@@ -27,3 +27,14 @@
   width: 25px;
   height: 25px;
 }
+
+
+@media screen and (max-width: 1260px) {
+  .header__info-box{
+    flex-direction: column;
+  }
+
+  .header__socials {
+    flex-direction: row;
+  }
+}

@@ -13,16 +13,16 @@ const HeaderSocials = () => {
       transition={{ duration: 0.5, delay: 0.5 }}
       className="header__socials"
     >
-      <a href={socials.github} target="_blank">
+      <a href={socials.github} target="_blank" rel="noopener noreferrer">
         <BsGithub />
       </a>
-      <a href={socials.linkedIn} target="_blank">
+      <a href={socials.linkedIn} target="_blank" rel="noopener noreferrer">
         <BsLinkedin />
       </a>
-      <a href={socials.telegram} target="_blank">
+      <a href={socials.telegram} target="_blank" rel="noopener noreferrer">
         <BsTelegram />
       </a>
-      <a href={socials.gmail} target="_blank">
+      <a href={socials.gmail} target="_blank" rel="noopener noreferrer">
         <TbBrandGmail />
       </a>
     </motion.div>

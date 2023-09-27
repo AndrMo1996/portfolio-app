@@ -1,34 +1,40 @@
 .bottom-menu__nav {
-    background-color: rgba(0,0,0,0.2);
-    width: max-content;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 2rem;
+  gap: 2rem;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(4px);
+
+  .app__active-nav-item {
     display: flex;
     align-items: center;
-    padding: 0.7rem 1.7rem;
-    z-index: 2;
-    position: fixed;
-    transform: translateX(-50%);
-    left: 50%;
-    bottom: 2rem;
-    gap: 2rem;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(4px);
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
 
-    .app__active-nav-item{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 40px;
-        height: 40px;
-        background-color: rgba(0,0,0,0.4);
-        border-radius: 50%;
-
-        a{
-            color: var(--color-white);
-        }
+    a {
+      color: var(--color-white);
     }
+  }
 }
 
 a svg {
-    width: 25px;
-    height: 25px;
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (max-width: 1260px) {
+  .bottom-menu__nav {
+    display: none;
+  }
 }

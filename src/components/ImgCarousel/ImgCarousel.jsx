@@ -13,8 +13,8 @@ const ImgCarousel = ({ images }) => {
     const timer = setTimeout(() => {
       nextSlide();
     }, 6000);
-    return () => clearTimeout;
-  }, [current]);
+    return () => timer.clearTimeout;
+  }, [current, nextSlide]);
 
   // if (!Array.isArray.images || images.length === 0) {
   //   return;
@@ -28,7 +28,7 @@ const ImgCarousel = ({ images }) => {
             index === current ? "carousel-item active" : "carousel-item"
           }
         >
-          <img src={image} alt="image" />
+          <img src={image} alt="slide" />
         </div>
       ))}
     </div>
