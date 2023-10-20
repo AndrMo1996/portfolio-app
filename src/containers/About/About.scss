@@ -1,0 +1,57 @@
+.about-container {
+  display: flex;
+  font-size: 1.2rem;
+  gap: 5rem;
+
+  .about-me__text {
+    flex: 2;
+  }
+
+  .about-me__skills {
+    flex: 1;
+
+    @media screen and (max-width: 1260px) {
+        display: none;
+    }
+
+    .skills-data {
+      padding: 1rem 0;
+      color: aqua;
+
+      .skills-title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+      }
+
+      .skill-bar,
+      .skill__percentage {
+        height: 7px;
+        border-radius: 0.25rem;
+      }
+
+      .skill__percentage {
+        display: block;
+      }
+
+      .skill-bar {
+        background-color: #f1f1f1;
+
+        .skill-react {
+          width: 50%;
+          background-color: rgb(255, 209, 92);
+        }
+
+        .skill-php {
+          width: 70%;
+          background-color: rgb(255, 76, 96);
+        }
+
+        .skill-db {
+          width: 65%;
+          background-color: rgb(108, 108, 299);
+        }
+      }
+    }
+  }
+}
