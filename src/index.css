@@ -49,12 +49,13 @@ body {
   color: var(--color-white);
   margin: 0;
 }
+
 section {
   display: flex;
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  padding: 4.5rem 2.5rem 1.5rem;
+  padding: 4.5rem 2.5rem 2rem;
 }
 
 .container {
@@ -62,6 +63,7 @@ section {
   width: var(--container-width-ld);
   margin: 0 auto;
   display: flex;
+  flex: 1;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -87,21 +89,29 @@ a:hover {
 }
 
 @media screen and (max-width: 1640px) {
+  section {
+    min-height: 100vh;
+    height: 100%;
+  }
+
   .container {
     width: var(--container-width-md);
+  }
+
+  .head-text {
+    padding-bottom: 2rem;
   }
 }
 
 @media screen and (max-width: 1260px) {
-  section{
+  section {
     min-height: 100vh;
     height: 100%;
   }
-  
+
   .container {
     width: var(--container-width-sm);
     flex-direction: column;
-    flex: 1;
   }
 
   .head-text {

@@ -13,6 +13,9 @@
 
   .app__logo {
     text-transform: uppercase;
+    background: -webkit-linear-gradient(90deg, #ffe600, #3333ff);
+    -webkit-background-clip: text;
+    color: transparent;
   }
 
   .app__navbar-menu {

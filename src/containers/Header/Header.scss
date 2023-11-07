@@ -5,6 +5,9 @@
 
   h1 {
     font-size: 54px;
+    background: -webkit-linear-gradient(90deg, #ffe600, #3333ff);
+    -webkit-background-clip: text;
+    color: transparent;
   }
 }
 
@@ -28,9 +31,8 @@
   height: 25px;
 }
 
-
 @media screen and (max-width: 1260px) {
-  .header__info-box{
+  .header__info-box {
     flex-direction: column;
     justify-content: space-between;
   }
