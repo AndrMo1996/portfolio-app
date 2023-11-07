@@ -1,18 +1,21 @@
 import React from "react";
-import ImgCarousel from "../../components/ImgCarousel/ImgCarousel";
+import ImgCarousel from "../../../components/ImgCarousel/ImgCarousel";
 
-const ProjectCard = ({ project }) => {
+import "./ProjectCard.scss";
+
+
+const ProjectCard = ({ className, project }) => {
   return (
-    <div className="portfolio__item">
+    <div className={`project__item ${className}`}>
       <ImgCarousel images={project.images} />
-      <h3 className="portfolio__item-title">{project.title}</h3>
-      <span className="portfolio__item-description">{project.desc}</span>
-      <div className="portfolio__item-technologies">
+      <h3 className="project__item-title">{project.title}</h3>
+      <span className="project__item-description">{project.desc}</span>
+      <div className="project__item-technologies">
         {project.frontendTech && <p>Frontend: {project.frontendTech}</p>}
         {project.backendTech && <p>Backend: {project.backendTech}</p>}
       </div>
 
-      <div className="portfolio__item-links">
+      <div className="project__item-links">
         {project.frontendGit && (
           <a className="btn" href={project.frontendGit} target="_blank" rel="noopener noreferrer">
             Front GitHub

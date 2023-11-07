@@ -18,3 +18,11 @@
     box-shadow: var(--shadow);
   }
 }
+
+.logo{
+  position: fixed;
+  right: -130px;
+  height: 300px;
+  opacity: 0.6;
+  transform: rotate(250deg);
+}

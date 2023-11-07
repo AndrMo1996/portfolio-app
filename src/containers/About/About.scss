@@ -1,17 +1,39 @@
 .about-container {
+  position: relative;
   display: flex;
   font-size: 1.2rem;
   gap: 5rem;
 
+  .skill__logo {
+    position: absolute;
+  }
+
+  .mysql-logo {
+    left: 50%;
+    bottom: -40px;
+    height: 200px;
+    width: 200px;
+    opacity: 0.5;
+  }
+
+  .php-logo {
+    left: -10%;
+    top: 1%;
+    height: 250px;
+    width: 250px;
+    opacity: 0.4;
+  }
+
   .about-me__text {
     flex: 2;
+    z-index: 5;
   }
 
   .about-me__skills {
     flex: 1;
 
     @media screen and (max-width: 1260px) {
-        display: none;
+      display: none;
     }
 
     .skills-data {

@@ -5,6 +5,7 @@ import "./ImgCarousel.scss";
 const ImgCarousel = ({ images }) => {
   const [current, setCurrent] = useState(0);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const nextSlide = () => {
     setCurrent(current === images.length - 1 ? 0 : current + 1);
   };

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import ProjectCard from "./ProjectCard";
+import Slider from "../../components/Slider/Slider";
 import { projects } from "../../constants/projects";
 
 import "./Portfolio.scss";
@@ -16,9 +16,11 @@ const Portfolio = () => {
           transition={{ duration: 0.5 }}
           className="portfolio__items"
         >
-          {projects.map((project, index) => (
+
+          <Slider items={projects} itemsCount={2}/>
+          {/* {projects.map((project, index) => (
             <ProjectCard key={index} project={project} />
-          ))}
+          ))} */}
         </motion.div>
       </div>
     </section>

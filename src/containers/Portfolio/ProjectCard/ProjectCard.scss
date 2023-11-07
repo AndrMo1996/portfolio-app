@@ -1,0 +1,47 @@
+.project__item {
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  transition: 0.3s;
+  flex: 1;
+  display: none;
+
+  &:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+    box-shadow: var(--shadow-variant);
+  }
+
+  .project__item-image {
+    width: 100%;
+    height: 300px;
+    border-radius: 1rem;
+  }
+
+  .project__item-title {
+    margin: 1rem 0;
+  }
+
+  .project__item-description {
+    color: gray;
+  }
+
+  .project__item-technologies {
+    margin: 1rem 0;
+  }
+
+  .project__item-links {
+    display: flex;
+    gap: 1rem;
+
+    @media screen and (max-width: 420px) {
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+  }
+}
+
+.project__item.active{
+    display: block;
+  }

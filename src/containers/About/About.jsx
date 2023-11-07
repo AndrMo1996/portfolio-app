@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+import { images } from "../../constants";
+
 import "./About.scss";
 
 const About = () => {
@@ -8,6 +10,12 @@ const About = () => {
     <section id="about">
       <h2 className="head-text">About Me</h2>
       <div className="container about-container">
+        <img
+          className="skill__logo mysql-logo"
+          src={images.mysqlImg}
+          alt="mysql"
+        />
+        <img className="skill__logo php-logo" src={images.phpImg} alt="php" />
         <motion.div
           whileInView={{ opacity: [0, 1] }}
           transition={{ duration: 0.5 }}

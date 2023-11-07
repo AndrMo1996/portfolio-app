@@ -1,78 +1,63 @@
 import { FaGraduationCap, FaBriefcase } from 'react-icons/fa'
 
-import nodeImg from '../assets/img/skills/node.png'
-import reactImg from '../assets/img/skills/react.png'
-import jsImg from '../assets/img/skills/javascript.png'
-import apiImg from '../assets/img/skills/api.png'
-import gitImg from '../assets/img/skills/git.png'
-import reduxImg from '../assets/img/skills/redux.png'
-import htmlImg from '../assets/img/skills/html.png'
-import cssImg from '../assets/img/skills/css.png'
-import sassImg from '../assets/img/skills/sass.png'
-import phpImg from '../assets/img/skills/php.png'
-import dockerImg from '../assets/img/skills/docker.png'
-import mysqlImg from '../assets/img/skills/mysql.png'
-import mssqlImg from '../assets/img/skills/mssql.png'
-import mongoImg from '../assets/img/skills/mongo.png'
-
-
+import { images } from "./images";
 
 export const skills = [
     {
         title: 'HTML',
-        icon: htmlImg
+        icon: images.htmlImg
     },
     {
         title: 'CSS',
-        icon: cssImg
+        icon: images.cssImg
     },
     {
         title: 'Java Script',
-        icon: jsImg
+        icon: images.jsImg
     },
     {
         title: 'Sass',
-        icon: sassImg
+        icon: images.sassImg
     },
     {
         title: 'React JS',
-        icon: reactImg
+        icon: images.reactImg
     },
     {
         title: 'Redux',
-        icon: reduxImg
+        icon: images.reduxImg
     },
     {
         title: 'NodeJS',
-        icon: nodeImg
+        icon: images.nodeImg
     },
     {
         title: 'API',
-        icon: apiImg
+        icon: images.apiImg
     },
     {
         title: 'PHP Laravel',
-        icon: phpImg
+        icon: images.phpImg
     },
     {
         title: 'MySQL',
-        icon: mysqlImg
+        icon: images.mysqlImg
     },
     {
         title: 'MSSQL',
-        icon: mssqlImg
+        icon: images.mssqlImg
     },
     {
         title: 'Mongo',
-        icon: mongoImg
+        icon: images.mongoImg
     },
     {
         title: 'Git',
-        icon: gitImg
+        icon: images.gitImg
     },
     {
         title: 'Docker',
-        icon: dockerImg
+        icon: images.dockerImg
     },
 ]
 
