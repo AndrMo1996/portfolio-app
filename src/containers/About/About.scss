@@ -31,9 +31,10 @@
 
   .about-me__skills {
     flex: 1;
+    z-index: 5;
 
     @media screen and (max-width: 1260px) {
-      display: none;
+      width: 75%;
     }
 
     .skills-data {
