@@ -36,7 +36,7 @@ export const skills = [
         icon: images.apiImg
     },
     {
-        title: 'PHP Laravel',
+        title: 'PHP',
         icon: images.phpImg
     },
     {

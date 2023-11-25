@@ -64,6 +64,7 @@ section {
   margin: 0 auto;
   display: flex;
   flex: 1;
+  z-index: 1;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;

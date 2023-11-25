@@ -11,7 +11,7 @@ import eshop_004 from "../assets/img/projects/eshop_004.png";
 export const projects = [
   {
     title: "Tech Tools App",
-    desc: "It react app for Jira",
+    desc: "",
     frontendTech: "React, CSS, Material UI",
     backendTech: "PHP Laravel",
     frontendGit: "https://github.com/AndrMo1996/tech-tools-app-react",
@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     title: "Internet-Shop App",
-    desc: "It's react app for Jira11 <br/> dfsfdfs",
+    desc: "",
     frontendTech: "Blade, CSS, JS",
     backendTech: "PHP Laravel",
     frontendGit: "",
@@ -35,48 +35,6 @@ export const projects = [
       eshop_002,
       eshop_003,
       eshop_004,
-    ],
-  },
-  {
-    title: "Internet-Shop App111",
-    desc: "It's react app for Jira11 <br/> dfsfdfs",
-    frontendTech: "Blade, CSS, JS",
-    backendTech: "PHP Laravel",
-    frontendGit: "",
-    backendGit: "https://github.com/AndrMo1996/e-shop",
-    images: [
-      techtools_001,
-      techtools_002,
-      techtools_003,
-      techtools_004,
-    ],
-  },
-  {
-    title: "Internet-Shop App1",
-    desc: "It's react app for Jira11 <br/> dfsfdfs",
-    frontendTech: "Blade, CSS, JS",
-    backendTech: "PHP Laravel",
-    frontendGit: "",
-    backendGit: "https://github.com/AndrMo1996/e-shop",
-    images: [
-      eshop_001,
-      eshop_002,
-      eshop_003,
-      eshop_004,
-    ],
-  },
-  {
-    title: "Internet-Shop App11",
-    desc: "It's react app for Jira11 <br/> dfsfdfs",
-    frontendTech: "Blade, CSS, JS",
-    backendTech: "PHP Laravel",
-    frontendGit: "",
-    backendGit: "https://github.com/AndrMo1996/e-shop",
-    images: [
-      techtools_001,
-      techtools_002,
-      techtools_003,
-      techtools_004,
     ],
   },
 ];
